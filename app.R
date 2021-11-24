@@ -24,7 +24,7 @@ library(ajfhelpR)
 
 
 
-alldata <-read_rds("data/cache_all_turntiles_data.rds")
+alldata <-read_rds("https://github.com/trcliu/MTA_Turntiles_Tracker/raw/main/cache_all_turntiles_data.rds")
 
 alldata <- drop_na(alldata)
 
